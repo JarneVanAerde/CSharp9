@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TopLevelCalls", "TopLevelCalls\TopLevelCalls.csproj", "{F959719B-1477-4745-ABE0-7E893551FDE3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InitSetters", "InitSetters\InitSetters.csproj", "{AAA611DC-06B4-4BF6-A475-79E136E381E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InitSetters", "InitSetters\InitSetters.csproj", "{AAA611DC-06B4-4BF6-A475-79E136E381E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShorthandClassInitialization", "ShorthandClassInitialization\ShorthandClassInitialization.csproj", "{EF6A56E9-166C-4994-9D2C-015A81A7EF76}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{AAA611DC-06B4-4BF6-A475-79E136E381E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AAA611DC-06B4-4BF6-A475-79E136E381E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AAA611DC-06B4-4BF6-A475-79E136E381E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF6A56E9-166C-4994-9D2C-015A81A7EF76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF6A56E9-166C-4994-9D2C-015A81A7EF76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF6A56E9-166C-4994-9D2C-015A81A7EF76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF6A56E9-166C-4994-9D2C-015A81A7EF76}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

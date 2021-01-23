@@ -4,8 +4,8 @@ using InitSetters;
 var person = new Person
 {
     Id = 1,
-    FirstName = "Jarne",
-    LastName = "Van Aerde"
+    FirstName = "Joske",
+    LastName = "Vermeiren"
 };
 
 Console.WriteLine($"Hello {person.FirstName} {person.LastName} ({person.Id})");
