@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InitSetters", "InitSetters\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShorthandClassInitialization", "ShorthandClassInitialization\ShorthandClassInitialization.csproj", "{EF6A56E9-166C-4994-9D2C-015A81A7EF76}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorApp", "BlazorApp\BlazorApp.csproj", "{B0DDBC26-CF8F-4531-A819-C7D532F7B1E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorApp", "BlazorApp\BlazorApp.csproj", "{B0DDBC26-CF8F-4531-A819-C7D532F7B1E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Records", "Records\Records.csproj", "{50516B05-F024-4572-B1C9-3E3D2BE4AE3C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{B0DDBC26-CF8F-4531-A819-C7D532F7B1E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0DDBC26-CF8F-4531-A819-C7D532F7B1E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0DDBC26-CF8F-4531-A819-C7D532F7B1E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50516B05-F024-4572-B1C9-3E3D2BE4AE3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50516B05-F024-4572-B1C9-3E3D2BE4AE3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50516B05-F024-4572-B1C9-3E3D2BE4AE3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50516B05-F024-4572-B1C9-3E3D2BE4AE3C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
