@@ -11,6 +11,33 @@
             LastName = lastName;
         }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         //public void Deconstruct(out string FirstName, out string LastName)
         //{
         //    FirstName = this.FirstName;

@@ -10,7 +10,7 @@ Class1 c1b = new("Jarne", "Van Aerde");
 Class1 c1c = new("Joske", "Vermeiren");
 
 Console.WriteLine("Record Type:");
-// Console.WriteLine($"To String: {r1a}");
+//Console.WriteLine($"To String: {r1a}");
 //Console.WriteLine($"Are equal: {Equals(r1a, r1b)}");
 //Console.WriteLine($"Are equal by reference: {ReferenceEquals(r1a, r1b)}");
 //Console.WriteLine($"Are equal ==: {r1a == r1b}");
