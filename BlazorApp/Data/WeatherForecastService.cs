@@ -17,25 +17,45 @@ namespace BlazorApp.Data
             var results = Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
                 Date = startDate.AddDays(index),
-                TemperatureC = rng.Next(-20, 55),
+                TemperatureC = rng.Next(-20, 80),
                 Summary = Summaries[rng.Next(Summaries.Length)]
             }).ToArray();
-
-            foreach (var result in results)
-            {
-                if (result.TemperatureC < -10)
-                {
-                    result.Summary = "Well below freezing!";
-                }
-                else if (result.TemperatureC == 0)
-                {
-                    result.Summary = "Freezing";
-                }
-
-                // .....
-            }
 
             return Task.FromResult(results);
         }
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//foreach (var result in results)
+//{
+//    //if (result.TemperatureC < -10)
+//    //{
+//    //    result.Summary = "Well below freezing!";
+//    //}
+//    //else if (result.TemperatureC == 0)
+//    //{
+//    //    result.Summary = "Freezing";
+//    //}
+
+//    // .....
+//}
