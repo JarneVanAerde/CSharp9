@@ -47,7 +47,18 @@ Console.WriteLine("Class Type:");
 
 
 
-// Console.WriteLine();
+
+
+
+
+
+
+
+
+
+
+
+
 
 //var (fn, ln) = r1a;
 //Console.WriteLine($"The value of fn is {fn} and the value of ln is {ln}");
@@ -79,7 +90,65 @@ Console.WriteLine("Class Type:");
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 //Record2 r2a = new("Tim", "Verstreaten");
 //Console.WriteLine($"R2a To String: {r2a}");
 //Console.WriteLine($"R2a name: {r2a.FirstName} {r2a.LastName}");
 //Console.WriteLine(r2a.SayHello());
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/// <summary>
+/// Benefits:
+/// - Simple to set up
+/// - Thread-safe
+/// - Easy/Safe to share
+/// 
+/// When to use records:
+/// - Capturing external data that doesn't change
+/// - API calls
+/// - Processing data
+/// </summary>

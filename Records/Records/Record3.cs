@@ -1,7 +1,7 @@
 ﻿namespace Records
 {
     /// <summary>
-    /// DOE DIT NIET!!!!
+    /// DON'T DO THIS!!!!
     /// </summary>
     public record Record3
     {

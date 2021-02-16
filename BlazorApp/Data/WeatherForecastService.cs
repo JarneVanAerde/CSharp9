@@ -48,14 +48,14 @@ namespace BlazorApp.Data
 
 //foreach (var result in results)
 //{
-//    //if (result.TemperatureC < -10)
-//    //{
-//    //    result.Summary = "Well below freezing!";
-//    //}
-//    //else if (result.TemperatureC == 0)
-//    //{
-//    //    result.Summary = "Freezing";
-//    //}
+//    if (result.TemperatureC == 0)
+//    {
+//        result.Summary = "Freezing";
+//    }
+//    else if (result.TemperatureC < -10)
+//    {
+//        result.Summary = "Well below freezing!";
+//    }
 
 //    // .....
 //}
