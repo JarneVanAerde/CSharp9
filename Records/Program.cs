@@ -63,11 +63,8 @@ Console.WriteLine("Class Type:");
 //var (fn, ln) = r1a;
 //Console.WriteLine($"The value of fn is {fn} and the value of ln is {ln}");
 
-//Record1 r1d = r1a with
-//{
-//    FirstName = "Jan"
-//};
-//Console.WriteLine($"Jan's record: { r1d }");
+Record1 r1d = r1a;
+Console.WriteLine($"Jan's record: { r1d }");
 
 
 
