@@ -4,10 +4,10 @@
     {
         private string _firstName = FirstName;
 
-        public string Firstname
+        public string FirstName
         {
-            get { return _firstName = FirstName.Substring(0, 1); }
-            init {  }
+            get { return _firstName.Substring(0, 1); }
+            init { }
         }
 
         public string FullName { get => $"{FirstName} {LastName}"; }

@@ -24,7 +24,7 @@ Console.WriteLine("*********************************");
 Console.WriteLine();
 
 Console.WriteLine("Class Type:");
-// Console.WriteLine($"To String: {c1a}");
+//Console.WriteLine($"To String: {c1a}");
 //Console.WriteLine($"Are equal: {Equals(c1a, c1b)}");
 //Console.WriteLine($"Are equal by reference: {ReferenceEquals(c1a, c1b)}");
 //Console.WriteLine($"Are equal ==: {c1a == c1b}");
@@ -47,7 +47,7 @@ Console.WriteLine("Class Type:");
 
 
 
-Console.WriteLine();
+// Console.WriteLine();
 
 //var (fn, ln) = r1a;
 //Console.WriteLine($"The value of fn is {fn} and the value of ln is {ln}");
@@ -56,7 +56,7 @@ Console.WriteLine();
 //{
 //    FirstName = "Jan"
 //};
-//Console.WriteLine($"Jon's record: { r1d }");
+//Console.WriteLine($"Jan's record: { r1d }");
 
 
 
@@ -77,7 +77,7 @@ Console.WriteLine();
 
 
 
-Console.WriteLine();
+
 
 //Record2 r2a = new("Tim", "Verstreaten");
 //Console.WriteLine($"R2a To String: {r2a}");

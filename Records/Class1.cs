@@ -38,10 +38,10 @@
 
 
 
-        //public void Deconstruct(out string FirstName, out string LastName)
-        //{
-        //    FirstName = this.FirstName;
-        //    LastName = this.LastName;
-        //}
+        public void Deconstruct(out string FirstName, out string LastName)
+        {
+            FirstName = this.FirstName;
+            LastName = this.LastName;
+        }
     }
 }
