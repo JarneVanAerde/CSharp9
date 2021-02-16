@@ -64,7 +64,7 @@ Console.WriteLine("Class Type:");
 //Console.WriteLine($"The value of fn is {fn} and the value of ln is {ln}");
 
 Record1 r1d = r1a;
-Console.WriteLine($"Jan's record: { r1d }");
+Console.WriteLine($"Jarne's record: { r1d }");
 
 
 
