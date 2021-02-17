@@ -10,7 +10,7 @@ namespace TopLevelCalls
             Console.WriteLine($"2 + 2 = {Add(2, 2)}");
         }
 
-        private static int Add(int x, int y)
+        static int Add(int x, int y)
         {
             return x + y;
         }
